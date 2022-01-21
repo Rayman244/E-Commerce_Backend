@@ -1,0 +1,31 @@
+{
+  "name": "e-commerce_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeds/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rayman244/E-Commerce_Backend.git"
+  },
+  "author": "Ray Hewitt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rayman244/E-Commerce_Backend/issues"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.7"
+  },
+  "homepage": "https://github.com/Rayman244/E-Commerce_Backend#readme"
+}
