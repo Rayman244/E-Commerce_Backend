@@ -14,20 +14,16 @@ Product.init(
       type: DataTypes.INTEGER,
       primaryKey: true,
       autoIncrement: true,
-      validate: {
-        notNull:true
-      }
+      
+     
     },
     product_name:{
       type: DataTypes.STRING,
-      validate: {
-        notNull:true
-      }
+    
     },
     price:{
       type: DataTypes.INTEGER,
       validate:{
-        notNull: true,
         isDecimal: true
       }
     },
@@ -35,7 +31,7 @@ Product.init(
       type: DataTypes.INTEGER,
       defaultValue: 10,
       validate:{
-        notNull: true,
+        
         isInt: true
       }
     },

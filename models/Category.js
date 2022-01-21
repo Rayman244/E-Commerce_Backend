@@ -11,15 +11,11 @@ Category.init(
       type: DataTypes.INTEGER,
       primaryKey: true,
       autoIncrement: true,
-      validate: {
-        notNull:true
-      }
+      
+   
     },
     category_name:{
       type: DataTypes.STRING,
-      validate: {
-        notNull:true
-      }
     }
   },
   {
