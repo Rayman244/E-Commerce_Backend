@@ -86,7 +86,7 @@ router.delete('/:id', async (req, res) => {
       res.status(404).json({ message: "Please enter a valad Tag!" });
       return;
     }
-  return res.status(200).json(TagData);
+  return res.status(200).json(tagData);
   } catch (err) {
     res.status(500).json(err);
   }
